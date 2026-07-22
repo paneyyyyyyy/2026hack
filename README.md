@@ -1,4 +1,4 @@
-# 代辦人（Daibanren）— 勞資爭議可信 AI Agent Demo
+# 勞資爭議可信 AI Agent Demo
 
 > 為 [Trustworthy AI Hackathon 2026｜可信 AI 黑客松](https://hackathon.chain.tw/) 製作之原型 Demo。
 > 主題方向：**04 政府服務** — 代辦到哪一步，由授權說了算。
