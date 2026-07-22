@@ -39,31 +39,6 @@
 - 純 CSS（無 UI 框架），設計語彙取材自「案件卷宗＋鏈式稽核憑條」的視覺隱喻
 - 無資料庫、無外部 API 呼叫；申請書生成與政府送件皆為前端模擬流程（詳見下方邊界說明）
 
-## 本地執行
-
-```bash
-npm install
-npm run dev
-```
-
-開啟終端機顯示的網址（預設 `http://localhost:5173`）。
-
-## 建置與部署（GitHub Pages）
-
-專案已附上 GitHub Actions workflow（`.github/workflows/deploy.yml`），推送到 `main` 分支後會自動建置並部署到 GitHub Pages：
-
-1. 將此專案 push 到你的 GitHub repo
-2. 到 repo 的 **Settings → Pages**，Source 選擇 **GitHub Actions**
-3. push 到 `main` 後，Actions 會自動執行 `npm ci && npm run build` 並部署 `dist/`
-4. 完成後即可在 `https://<你的帳號>.github.io/<repo 名稱>/` 看到 Demo
-
-也可以手動建置後用任何靜態網站服務（Netlify、Vercel、Cloudflare Pages）託管 `dist/` 資料夾：
-
-```bash
-npm run build
-npm run preview   # 本機預覽建置結果
-```
-
 ## 專案結構
 
 ```
